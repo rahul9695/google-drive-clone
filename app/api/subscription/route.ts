@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 export async function POST(req: Request) {
   try {
-    const public_domain = process.env.NEXT_PUBLIC_DOMAIN;
+    const public_domain = "https://google-drive-clone-pearl.vercel.app/";
 
     // console.log(await req.json());
     
