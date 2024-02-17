@@ -1,38 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
+# Google Drive Clone with Next.js, TypeScript, Tailwind CSS, Axios, and Stripe Integration
+
+## Welcome to the Google Drive Clone project! This project is built using Next.js, TypeScript, Tailwind CSS, Axios, and integrates Stripe for payment processing. Below, you'll find a comprehensive guide on the technologies used and the features implemented.
+
 # Hosted Link
 https://google-drive-clone-pearl.vercel.app/
 
+
+# Technologies Used
+- Next.js: A React framework for building efficient and scalable web applications. It enables server-side rendering, automatic code splitting, and easy deployment.
+
+- TypeScript: Adds static typing to JavaScript, enhancing development productivity and catching potential errors before runtime.
+
+- Tailwind CSS: A utility-first CSS framework that makes it easy to design responsive and visually appealing user interfaces.
+
+- Axios: A promise-based HTTP client for making requests to the server. It simplifies the process of handling HTTP requests and responses.
+
+- npm: The package manager for Node.js, used to manage project dependencies and scripts.
+
+# Features
+
+1. Dark Mode/Light Mode
+The project includes a visually appealing dark mode/light mode toggle for users to switch between different color schemes based on their preferences. This enhances user experience and accessibility.
+
+2. Sign Up/Sign In
+- User Authentication: Users can sign up and create an account to access the full range of features.
+- Secure Authentication: The project implements secure authentication methods to protect user data.
+
+3. Storage Increase
+- Storage Management: Users can manage their storage space efficiently, and the project includes features such as uploading, downloading, and deleting files.
+- Storage Increase Option: Users can upgrade their storage space by choosing premium plans, offering a seamless experience.
+
+4. Stripe Payment Integration
+- Subscription Plans: Users can choose from various subscription plans to increase their storage capacity.
+- Secure Payments: The integration of Stripe ensures secure and seamless payment processing.
+- Billing Dashboard: Users can view and manage their subscription details and billing information through a user-friendly dashboard.
+
 ## Getting Started
 
-First, run the development server:
+1. Clone the Repository:
+` git clone https://github.com/your-username/your-google-drive-clone.git`
+`cd your-google-drive-clone`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Install Dependencies:
+`npm install`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Environment Variables:
+- Create a `.env` file with the necessary environment variables, including API keys and configurations for services like Stripe.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Run the Project:
+`npm run dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The project will be accessible at http://localhost:5173
 
-## Learn More
+Contributions and Issues
+Feel free to contribute to the project by submitting pull requests or reporting issues. Your feedback and contributions are highly appreciated!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding! 🚀
